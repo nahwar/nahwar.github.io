@@ -154,6 +154,20 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+.proj {
+  margin-bottom: 1rem;
+}
+
+.ghb {
+  margin: 1rem;
+  margin-left: auto;
+}
+
+.introPort {
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
 input,
 select,
 textarea {
@@ -1539,7 +1553,7 @@ br.clear {
   clear: both;
 }
 
-p,
+/* p,
 ul,
 ol,
 dl,
@@ -1547,7 +1561,7 @@ table,
 blockquote,
 form {
   margin-bottom: 2em;
-}
+} */
 
 /* Table */
 
