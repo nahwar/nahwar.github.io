@@ -1,93 +1,158 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNBTJEJV1Y"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XNBTJEJV1Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-		  gtag('config', 'G-XNBTJEJV1Y');
-		</script>
+      gtag("config", "G-XNBTJEJV1Y");
+    </script>
 
-		<title>Nahuel Nicolas Alonso</title>
-		<meta charset="ISO-8859-1" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <title>Nahuel Nicolas Alonso</title>
+    <meta charset="ISO-8859-1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#" class="icon solid fa-home"
+          ><span lang="es">Inicio</span><span lang="en">Home</span></a
+        >
+        <a href="#portafolio" class="icon solid fa-folder"
+          ><span lang="es">Portafolio</span><span lang="en">Portfolio</span></a
+        >
+        <a
+          href="./Nahuel_Alonso_WebDev_CV.pdf"
+          target="_blank"
+          class="icon solid fa-address-card"
+          ><span>CV</span></a
+        >
+        <a
+          href="https://www.linkedin.com/in/nahalonso/"
+          target="_blank"
+          class="icon brands fa-linkedin"
+          ><span>LinkedIn</span></a
+        >
+        <input id="check" onchange="englishSwitch(this)" type="checkbox" />
+        <label for="check"><i class="fas fa-flag-usa"></i></label>
+      </nav>
 
-	</head>
-	<body class="is-preload">
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Nahuel Nicolas Alonso</h1>
+            <p lang="es">Web Developer - Tecnico Radiologo</p>
+            <p lang="en">Web Developer - Radiologic Technologist</p>
+          </header>
+        </article>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+        <!-- Portfolio -->
+        <article id="portafolio" class="panel">
+          <header>
+            <h2 lang="es">Projectos Notables</h2>
+            <h2 lang="en">Noteworthy Projects</h2>
+          </header>
+          <p lang="es">
+            Durante mi tiempo como freelancer he tenido la oportunidad de
+            trabajar en ambiciosos proyectos para importantes clientes.<br />Los
+            mas notables son:
+          </p>
+          <p lang="en">
+            During my time as a freelancer I had the opportunity to work on
+            several projects for important clients<br />The most interesting
+            projects are:
+          </p>
+          <section>
+            <div class="row">
+              <div class="col-12">
+                <h3>User Market</h3>
+                <p lang="en">
+                  User to User trading website similar to "Ebay"<br />Focused on
+                  cryptocurrency<br />Developed using Django
+                </p>
+                <p lang="es">
+                  Sitio de compra/venta de articulos entre usuarios similar a
+                  "Mercado Libre".<br />Especializado en Criptomonedas<br />Desarrollado
+                  en Django
+                </p>
+                <a lang="es" href="https://github.com/nahwar/Cripto-User-Market"
+                  ><i class="fab fa-github"></i> Ver en Github</a
+                >
+                <a lang="en" href="https://github.com/nahwar/Cripto-User-Market"
+                  ><i class="fab fa-github"></i> Check it out on Github</a
+                >
+              </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Inicio</span></a>
-						<a href="#portafolio" class="icon solid fa-folder"><span>Portafolio</span></a>
-						<a href="./Nahuel_Alonso_WebDev_CV.pdf" target="_blank" class="icon solid fa-address-card"><span>CV</span></a>
-						<a href="https://www.linkedin.com/in/nahalonso/" target="_blank" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
-					</nav>
+              <div class="col-12">
+                <h3>Der-piDJ</h3>
+                <p lang="es">
+                  Agregador de imagenes especializado en buscar y recopilar
+                  imagenes que correspondan a los parametros asignados en
+                  multiples paginas web.<br />Desarrollado en Django
+                </p>
+                <p lang="en">
+                  Image aggregator designed to search and compile images from
+                  different websites according to specified parameters<br />Developed
+                  using Django
+                </p>
+                <a lang="es" href="https://github.com/nahwar/der-piDJ"
+                  ><i class="fab fa-github"></i> Ver en Github</a
+                >
+                <a lang="en" href="https://github.com/nahwar/der-piDJ"
+                  ><i class="fab fa-github"></i> Check it out on Github</a
+                >
+              </div>
 
-				<!-- Main -->
-					<div id="main">
+              <div class="col-12">
+                <h3>WebmcPY</h3>
+                <p lang="es">
+                  Aplicacion dedicada a la conversion de video a formato
+                  Webm.<br />Desarrollado en Python<br />
+                  Disponible para Windows y Linux
+                </p>
+                <p lang="en">
+                  Application dedicated to the conversion of video files to WEBM
+                  format<br />Developed using Python<br />
+                  Available for Windows and Linux
+                </p>
+                <a lang="es" href="https://github.com/nahwar/webmcpy"
+                  ><i class="fab fa-github"></i> Ver en Github</a
+                >
+                <a lang="en" href="https://github.com/nahwar/webmcpy"
+                  ><i class="fab fa-github"></i> Check it out on Github</a
+                >
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </div>
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Nahuel Nicolas Alonso</h1>
-									<p>Web Developer - Tecnico Radiologo</p>
-								</header>
-							</article>
-
-						<!-- Portfolio -->
-							<article id="portafolio" class="panel">
-								<header>
-									<h2>Projectos Notables</h2>
-								</header>
-								<p>
-									Durante mi tiempo como freelancer he tenido la oportunidad de trabajar en ambiciosos proyectos para importantes clientes.<br>Los mas notables son:
-								</p>
-								<section>
-									<div class="row">
-										<div class="col-12">	
-										<h3>User Market</h3>
-										<p>Sitio de compra/venta de articulos entre usuarios similar a "Mercado Libre".<br>Especializado en Criptomonedas<br>Desarrollado en Django</p>
-										<a href="https://github.com/nahwar/Cripto-User-Market"><i class="fab fa-github"></i> Ver en Github</a>
-										</div>
-
-										<div class="col-12">
-										<h3>Der-piDJ</h3>
-										<p>Agregador de imagenes especializado en buscar y recopilar imagenes que correspondan a los parametros asignados en multiples paginas web.<br>Desarrollado en Django</p>
-										<a href="https://github.com/nahwar/der-piDJ"><i class="fab fa-github"></i> Ver en Github</a>
-										</div>
-
-										<div class="col-12">
-										<h3>WebmcPY</h3>
-										<p>Aplicacion dedicada a la conversion de video a formato Webm.<br>Desarrollado en Python<br> Disponible para Windows y Linux</p>
-										<a href="https://github.com/nahwar/webmcpy"><i class="fab fa-github"></i> Ver en Github</a>
-										</div>
-
-									</div>
-								</section>
-							</article>
-
-						
-
-					</div>
-
-				
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
